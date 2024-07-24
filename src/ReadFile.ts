@@ -1,6 +1,6 @@
 import { promises as fs } from "fs";
 
-export async function read(filePath: string) {
+export async function readFile(filePath: string) {
   return await fs.readFile(filePath, "utf-8");
 }
 
