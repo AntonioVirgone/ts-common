@@ -1,13 +1,18 @@
 {
-  "name": "ts-common",
-  "version": "1.0.0",
+  "name": "ts-av-common",
+  "version": "1.0.13",
   "description": "A common library",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "keywords": [],
-  "author": "Antonio Virgone",
+  "author": "antvision",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.14.12",
