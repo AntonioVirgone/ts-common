@@ -1,4 +1,5 @@
-export class MessageError {
+"use strict";
+class MessageError {
     constructor(status, message) {
         this.status = status;
         this.message = message;
