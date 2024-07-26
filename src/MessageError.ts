@@ -3,7 +3,7 @@ type MessageErrorType = {
   message: string;
 };
 
-class MessageError {
+export class MessageError {
     private messageError: MessageErrorType;
     
     constructor(private status: number, private message: string) {
