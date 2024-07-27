@@ -1,4 +1,7 @@
-export function generateRandomString(length) {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.generateRandomString = generateRandomString;
+function generateRandomString(length) {
     const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
     let result = "";
     const charactersLength = characters.length;
